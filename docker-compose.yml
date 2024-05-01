@@ -9,7 +9,7 @@ services:
     environment:
       DB_URL: jdbc:mysql://clinica_vet:3306/clinica_veterinaria?createDatabaseIfNotExist=true&serverTimezone=UTC
       DB_USER_NAME: root
-      DB_PASSWORD: 1234
+      DB_PASSWORD: 
     restart: always
     depends_on:
       clinica_vet:
